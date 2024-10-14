@@ -1,0 +1,11 @@
+Class,Global Model Before Accuracy (%),Global Model After Accuracy Without FULDEBUG (%),Global Model After Accuracy With FULDEBUG (%)
+0,98.98,98.88,99.08
+1,94.1,68.72,95.59
+2,97.67,97.09,98.26
+3,96.93,97.62,97.72
+4,97.96,96.84,97.45
+5,97.53,97.98,97.87
+6,97.81,98.23,98.43
+7,97.18,96.69,97.86
+8,96.82,96.0,97.33
+9,95.14,94.65,96.63
