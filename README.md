@@ -2,6 +2,10 @@
 
 This repository contains the artifacts for **FULDebug**, a federated unlearning debugging framework developed as part of our research. FULDebug enables interactive analysis and debugging during the federated learning process by offering breakpoints, step-in, and real-time telemetry-based analytics.
 
+| ![Debug Before Unlearning](https://github.com/FULDebug/FULDebug-Artifacts/blob/main/Result/Gifs/preunlearning.gif?raw=true) | ![Debug During Unlearning](https://github.com/FULDebug/FULDebug-Artifacts/blob/main/Result/Gifs/during-unlearning.gif?raw=true) | ![Visualize Metrics](https://github.com/FULDebug/FULDebug-Artifacts/blob/main/Result/Gifs/plotting.gif?raw=true) |
+|:-----------------------------------------------------------:|:---------------------------------------------------------------:|:-------------------------------------------------:|
+| How to debug before unlearning                              | How to debug during the unlearning                               | Visualize metrics                                 |
+
 ## How to Run the Project
 
 ### 1. Setup Python Environment
@@ -45,6 +49,7 @@ The repository also includes `.ipynb` files for running **Jupyter Notebooks** th
 - **Results**: Contains the output files for each experiment, including captured results during federated learning and unlearning.
 - **Results/images**: Contains the plots and visualizations related to the evaluation of the framework, generated during runtime.
 
+
 ## Evaluation & Results
 The **Results** directory stores all the captured results, including accuracy, contribution analysis, and other key metrics. Inside the **Results/images** subdirectory, you'll find the plots related to various evaluations such as:
 - Pre and post-unlearning accuracy.
@@ -53,6 +58,18 @@ The **Results** directory stores all the captured results, including accuracy, c
 
 These artifacts demonstrate the effectiveness of FULDebug in managing and debugging the federated unlearning process.
 
+| ![Class Balancing](https://github.com/FULDebug/FULDebug-Artifacts/blob/main/Result/Images/class_wise_analysis.png?raw=true) | ![Overall Accuracy](https://github.com/FULDebug/FULDebug-Artifacts/blob/main/Result/Images/overall_accuracy_comparison.png?raw=true?raw=true) | ![Runtime Overhead](https://github.com/FULDebug/FULDebug-Artifacts/blob/main/Result/Images/runtime_overhead.png?raw=true?raw=true) |
+|:-----------------------------------------------------------:|:---------------------------------------------------------------:|:-------------------------------------------------:|
+| How to debug before unlearning                              | How to debug during the unlearning                               | Visualize metrics                                 |
+
 ---
+
+## Other Metrices
+Our framework provides a range of key metrics and visualizations to verify the unlearning process and identify the impacts of unlearning specific clients. These include class-wise accuracy comparisons, feature importance deviations, and SHAP-based visual explanations. These metrics allow analysis of how client contributions affect model performance and feature significance. Inside the **Results/OtherMetrics** subdirectory, you'll find the plots related to various evaluations such as:
+
+| ![Feature Deviation](https://github.com/FULDebug/FULDebug-Artifacts/blob/main/Result/Other-Key-Metrices/feature_importance_deviation.jpeg?raw=true) | ![Debug During Unlearning](https://github.com/FULDebug/FULDebug-Artifacts/blob/main/Result/Other-Key-Metrices/shap_analysis.jpeg?raw=true) | ![Feature Change Score](https://github.com/FULDebug/FULDebug-Artifacts/blob/main/Result/Other-Key-Metrices/feature_score_between_global_model_before_and_after.jpeg?raw=true) |
+|:-----------------------------------------------------------:|:---------------------------------------------------------------:|:-------------------------------------------------:|
+| How to debug before unlearning                              | How to debug during the unlearning                               | Visualize metrics                                 |
+
 
 Feel free to explore the framework by running the scripts and notebooks to see the real-time analysis and evaluation of federated unlearning.
