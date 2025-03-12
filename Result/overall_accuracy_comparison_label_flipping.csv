@@ -1,0 +1,3 @@
+Dataset,Before,With,Without
+Fashion-MNIST,80.83,84.09,82.87
+CIFAR-10,71.25,73.76,65.07

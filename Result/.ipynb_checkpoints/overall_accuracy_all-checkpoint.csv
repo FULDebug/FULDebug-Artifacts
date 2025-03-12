@@ -1,0 +1,10 @@
+Dataset,Method,Global_Before,Unlearned,Unlearned_with_FULDebug
+MNIST,IBMFUL,95.02,88.27,94.70
+MNIST,FedEraser,94.79,85.52,94.52
+MNIST,FedRecovery,94.62,86.91,91.24
+Fashion-MNIST,IBMFUL,75.35,68.22,73.40
+Fashion-MNIST,FedEraser,75.38,67.24,73.38
+Fashion-MNIST,FedRecovery,74.92,67.04,77.43
+CIFAR10,IBMFUL,66.63,61.18,64.79
+CIFAR10,FedEraser,66.87,62.17,65.65
+CIFAR10,FedRecovery,65.73,61.65,64.75
